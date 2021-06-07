@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Button ID="btn_Sub" runat="server" Text="按鈕" OnClick="btn_Sub_Click" style="height: 21px" />
+            <br />
+            <asp:Label ID="lb_Txt" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>
